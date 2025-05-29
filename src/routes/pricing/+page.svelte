@@ -17,33 +17,50 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Elena Morales",
+			position: "Lead Dispatcher",
+			company: "CoolBreeze HVAC",
 			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
+				"Probook paid for itself in under a month. I can handle more calls without feeling overwhelmed, and the AI makes confident dispatching so easy.",
 			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-latina-woman-dispatcher-in-an-hvac-off.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Isaiah Carter",
+			position: "Operations Manager",
+			company: "Precision Plumbing Pros",
 			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
+				"We saw a real bump in booked jobs and less drive time. The value for the price is obvious–plus, setup was fast and support is always there when we need it.",
 			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-black-man-the-operations-manager-in-a-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Meredith Lane",
+			position: "Owner",
+			company: "Lane Electric Solutions",
 			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
+				"No wasted calls, bigger tickets. If you want to see true ROI on every tech in the field, you want Probook.",
 			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
+				"/generated/image-a-white-woman-owner-of-an-electrical-ser.webp"
 		}
 	]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Dispatch smarter. Win the day."
+  subtitle="See the impact right away—real results, real support."
+  description="Probook AI recommends or automates every technician assignment—maximizing sales, minimizing drive time, and helping your dispatchers do more with less. Give your team confidence and see proven results with the only AI dispatch solution built by and for home service leaders."
+  imageSrc="/generated/image-a-cheerful-technician-standing-in-a-bust.webp"
+  callsToAction={[
+    {
+      href: '/book-demo',
+      label: 'Book a demo',
+      variant: 'primary'
+    },
+    {
+      href: '/contact',
+      label: 'Talk to sales',
+      variant: 'secondary'
+    }
+  ]}
+/>

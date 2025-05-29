@@ -10,25 +10,29 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Built by dispatchers, for dispatchers",
+    description: "We know the job because we’ve done it. Everything we build is rooted in real-world field experience and direct customer feedback."
+  },
+  {
+    title: "Humble, practical, hands-on",
+    description: "No big egos or tech hype. We work alongside our users and each other—solving real problems, iterating fast, and celebrating practical wins."
+  },
+  {
+    title: "Tight feedback loops",
+    description: "We move quickly by listening to dispatchers, techs, and managers every day. When there’s an issue, it gets fixed. When there’s a win, we share it."
+  },
+  {
+    title: "Direct and honest",
+    description: "Feedback is direct and communication is clear—inside our team and with customers. We do our best work when we help each other improve."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Smarter dispatching, higher revenue"
+	subtitle="Built by dispatchers, backed by real support"
+	imageSrc="/mockups/airport-screen-1748545999798.png"
 />
 
 <!-- Story Section -->
@@ -47,29 +51,14 @@
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Meet our founder."
+	subtitle="In-person support and relentless focus on dispatchers."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "George Eliadis",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+			bio: "George leads Probook AI with a commitment to hands-on support. He personally joins new teams during launch to help dispatchers build trust in AI and achieve real operational gains—fast. From board reshuffling to late alerts, George puts the needs of service businesses and their dispatchers first.",
+			image: "/generated/image-a-professional-headshot-of-a-male-founde.webp"
 		}
 	]}
 />
@@ -96,7 +85,15 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="See Probook AI in action"
+  subtitle="Book a demo with our team"
+  description="Get hands-on with the only AI dispatch engine built by dispatchers, for dispatchers. See how we help the best companies increase sales, efficiency, and customer satisfaction—delivered with in-person support from real industry experts. Fast onboarding, instant value, and zero pressure."
+  imageSrc="/generated/image-a-cheerful-home-services-dispatcher-and-.webp"
+  callsToAction={[
+    {
+      href: "https://calendly.com/george-probook/demo",
+      label: "Book a demo",
+      variant: "primary"
+    }
+  ]}
 />

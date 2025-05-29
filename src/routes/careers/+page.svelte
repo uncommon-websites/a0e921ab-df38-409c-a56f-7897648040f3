@@ -121,53 +121,51 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Gabriela Martinez",
+    position: "Customer Support Specialist",
+    company: "Support Team",
+    quote: "From my first day at Probook, I felt welcomed and included. Everyone genuinely supports each other, and I always feel like my ideas are valued. We work together as a team, and there’s a true sense of friendship here.",
+    image: "/generated/image-a-hispanic-woman-in-a-customer-support-e.webp"
+  },
+  {
+    name: "Eric Tan",
+    position: "Senior Backend Engineer",
+    company: "Engineering Team",
+    quote: "At Probook, I’m encouraged to take on ambitious projects and push my skills. The mentorship and focus on learning have helped me grow, and the culture always inspires me to find better solutions.",
+    image: "/generated/image-an-asian-man-in-an-engineering-workspace.webp"
+  },
+  {
+    name: "David Thompson",
+    position: "Marketing Manager",
+    company: "Marketing Team",
+    quote: "Collaboration and creativity are at the heart of our team. I have the freedom to lead initiatives and see my ideas become reality, supported by colleagues who want everyone to succeed.",
+    image: "/generated/image-a-black-man-in-a-marketing-office-appear.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply in minutes",
+    description: "No fluff—just share your background and interests. We read every application."
+  },
+  {
+    step: 2,
+    title: "Meet the team",
+    description: "You’ll have 2–3 conversations with those you’ll work closely with. We keep things practical and candid."
+  },
+  {
+    step: 3,
+    title: "Show your thinking",
+    description: "Top candidates get a hands-on, paid task or collaborative session—focused on real work."
+  },
+  {
+    step: 4,
+    title: "Quick decision",
+    description: "We move fast—clear feedback in days, not weeks. You’ll never be left wondering."
+  }
+];
 
 	const values = [
 		{
@@ -191,8 +189,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Grow with purpose. Lead with impact."
+	subtitle="Shape the future of home services—together."
+	imageSrc="/generated/image-a-diverse-group-of-colleagues-in-a-moder.webp"
 />
 
 <!-- Why Join Us Section -->
