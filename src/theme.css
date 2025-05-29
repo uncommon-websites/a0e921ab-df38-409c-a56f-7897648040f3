@@ -1,6 +1,6 @@
 @theme inline {
 	/* Theming */
-	--color-background: var(--color-gray-50);
+	--color-background: var(--color-white);
 	--color-foreground: var(--color-gray-950);
 
 	--color-card: var(--color-white);
@@ -34,7 +34,7 @@
 	--color-chart-4: color-mix(in oklch, var(--color-primary-700), var(--color-secondary-300));
 	--color-chart-5: color-mix(in oklch, var(--color-primary-600), var(--color-secondary-400));
 
-	--color-sidebar: var(--color-gray-50);
+	--color-sidebar: var(--color-white);
 	--color-sidebar-foreground: var(--color-gray-950);
 	--color-sidebar-primary: var(--color-primary-600);
 	--color-sidebar-primary-foreground: var(--color-primary-50);
@@ -44,7 +44,7 @@
 	--color-sidebar-ring: var(--color-primary-600);
 
 	/* ALWAYS use REMs */
-	--radius: 0.5rem !important;
+	--radius: 0.75rem !important;
 	--radius-xs: calc(var(--radius) / 4);
 	--radius-sm: calc(var(--radius) / 2);
 	--radius-md: calc(var(--radius) / 1.5);
