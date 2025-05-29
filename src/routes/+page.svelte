@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Smarter dispatching. Done for you."
+  subtitle="Probook helps home services companies assign the right technician to every job—faster, easier, and more profitably."
+  customers={[
+    {
+      name: "Dani Dascher",
+      position: "Dispatcher, Auchinachie Services",
+      imageSrc: "/generated/image-a-female-dispatcher-in-a-busy-call-cente.webp"
+    },
+    {
+      name: "Mike Sullivan",
+      position: "Lead Dispatcher, Auchinachie Services",
+      imageSrc: "/generated/image-a-male-dispatcher-in-an-active-call-cent.webp"
+    },
+    {
+      name: "Brandy Heesh",
+      position: "Operations Manager, Auchinachie Services",
+      imageSrc: "/generated/image-a-female-operations-manager-in-a-home-se.webp"
+    },
+    {
+      name: "Chris Holleran",
+      position: "General Manager, Auchinachie Services",
+      imageSrc: "/generated/image-a-male-general-manager-of-an-hvac-compan.webp"
+    },
+    {
+      name: "Ryan Laske",
+      position: "Field supervisor & technician, TR Miller",
+      imageSrc: "/generated/image-a-male-service-technician-in-a-branded-s.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/onehourheatandair.com",
+		"https://logo.clearbit.com/mrrooter.com",
+		"https://logo.clearbit.com/aireserv.com"
+	]}
+/>
 
 <Summary
 	generating
