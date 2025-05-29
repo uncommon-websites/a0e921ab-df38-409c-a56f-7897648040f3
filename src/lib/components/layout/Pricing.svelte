@@ -35,116 +35,142 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Straightforward pricing for every dispatch operation",
+		subtitle = "AI dispatching designed for home services—no guesswork, no hidden fees. Contact us for a custom quote based on your team and needs.",
+		tierNames = ["Copilot", "Autopilot", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "AI-powered dispatch recommendations",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Copilot: true,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "ServiceTitan real-time integration",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Copilot: true,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Full board automation & reshuffle",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
+					Copilot: false,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Technicians managed per dispatcher",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Copilot: "Up to 10",
+					Autopilot: "Up to 25+",
+					Enterprise: "Unlimited"
+				}
+			},
+			{
+				name: "Historical sales, speed & drive time analytics",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Geographical and job type insights",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Proactive late alerts & over-capacity reschedules",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "In-person launch & onsite training",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: "Enhanced & custom"
+				}
+			},
+			{
+				name: "Dedicated support (median 3 min response)",
+				tiers: {
+					Copilot: "24/7 chat & priority email",
+					Autopilot: "24/7 chat, email & phone",
+					Enterprise: "24/7 direct, dedicated manager"
+				}
+			},
+			{
+				name: "Ongoing feature sessions & dispatcher upskilling",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Custom integrations & SLAs",
+				tiers: {
+					Copilot: false,
+					Autopilot: false,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Official Nexstar & ServiceTitan partner",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Copilot",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Stay in control with smart, AI-powered dispatch recs. Ideal for teams who want help, not autopilot.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"AI dispatch recommendations",
+					"Real-time ServiceTitan integration",
+					"Full analytics + performance insights",
+					"Proactive late alerts & reschedules",
+					"Onsite onboarding for dispatchers",
+					"24/7 priority support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Request demo",
+					href: "/book-demo?plan=copilot"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Autopilot",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Let Probook optimize and automate your entire board. Scale up with fewer dispatchers and smarter outcomes.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"All Copilot features",
+					"Board reshuffle & real-time automation",
+					"One dispatcher for 20-25+ techs",
+					"Advanced reports & workflow tools",
+					"Onsite launch led by CEO",
+					"24/7 chat, email & phone support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Request demo",
+					href: "/book-demo?plan=autopilot"
 				},
 				highlight: true
 			},
@@ -152,15 +178,13 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Custom scale, integrations, and white-glove onboarding for the largest operations.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"All Autopilot features",
+					"Custom integrations & enhanced SLAs",
+					"Direct manager & strategic support",
+					"Enhanced onsite onboarding",
+					"24/7 dedicated line"
 				],
 				cta: {
 					label: "Contact sales",
