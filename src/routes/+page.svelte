@@ -23,7 +23,7 @@
     {
       name: "Mike Sullivan",
       position: "Lead Dispatcher, Auchinachie Services",
-      imageSrc: "/generated/image-a-male-dispatcher-in-an-active-call-cent.webp"
+      imageSrc: "/generated/image-a-middle-aged-male-dispatcher-in-an-offi.webp"
     },
     {
       name: "Brandy Heesh",
